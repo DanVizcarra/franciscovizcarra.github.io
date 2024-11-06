@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.7), 
+        rgba(0, 0, 0, 0.7)
+    ), url(images/bg.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    padding: 15px 0;
+}
+
+.header-content {
+    margin: auto;
+    text-align: center;
+}
+
+.header-content h1 {
+    font-size: 55px;
+    line-height: 70px;
+    color: #F9FAFC;
+    text-transform: uppercase;
+    margin: 25px 0;
+}
+
+.header-content h2 {
+    font-size: 45px;
+    line-height: 30px;
+    color: #F9FAFC;
+    text-transform: uppercase;
+    margin: 15px 0;
+}
+
+.header-content p {
+    font-size: 26px;
+    color: #C5C5C5;
+    margin: 25px 0;
+    line-height: 1.4;
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.btn-1 img {
+    width: 50px;
+    margin-top: 5px;
+}
+
+.Acerca {
+    padding: 0;
+    margin: -10px 0;
+    background-color: #E1E2E6;
+    position: relative;
+    text-align: center; 
+}
+
+
+.Acerca-content {
+    text-align: center;
+}
+
+.Acerca-content h2 {
+    font-size: 45px;
+    line-height: 90px;
+    color: #323337;
+    text-transform: uppercase;
+    padding: 0 20px;
+}
+
+.Info-group {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    margin-top: 15px;
+}
+
+.Info-1 {
+    padding: 0 40px;
+    text-align: center;
+    flex: 1 1 200px;
+    max-width: 300px;
+    margin: 50px;
+}
+
+.Info-1 img {
+    width: 150px;
+    margin: 0 auto 15px;
+}
+
+.Info-1 h3 {
+    color: #444746;
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.Info-1 p {
+    font-size: 17px;
+    color: #323337;
+    margin-bottom: 5px;
+    text-align: center; 
+    margin: 15px;
+}
+
+.sobre {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.7), 
+        rgba(0, 0, 0, 0.7)), 
+        url(images/bg2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 15px 0;
+}
+
+.sobre-content {
+    margin: auto;
+    text-align: center;
+}
+
+.sobre-content h2 {
+    font-size: 55px;
+    line-height: 70px;
+    color: #F9FAFC;
+    text-transform: uppercase;
+    margin: 25px 0;
+}
+
+.sobre-group {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.sobre-1 {
+    padding: 0 20px; 
+    max-width: 300px; 
+}
+
+.sobre-1 img {
+    margin: 0 auto 20px;
+    display: block;
+}
+
+.sobre-1 h3 {
+    color: #EACCB3;
+    font-size: 18px;
+    margin: 25px 0;
+    text-transform: uppercase; 
+}
+
+.sobre-1 p {
+    font-size: 16px;
+    line-height: 100px;
+    color: #C5C5C5;
+    margin: 25px; 
+    line-height: 1.4; 
+    text-align: center;
+    overflow: hidden; 
+}
+
+.cursos {
+    display: flex;
+}
+
+.cursos-1 {
+    width: 50%;
+    padding: 75px 30px; /* Reduce el padding en pantallas grandes */
+    background-color: #E1E2E6;
+}
+
+/* Imagen de fondo de cursos-2 */
+.cursos-2 {
+    background-image: url(images/ow-1.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+/* Imagen de fondo de cursos-3 */
+.cursos-3 {
+    background-image: url(images/ow-2.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.h2 {
+    font-size: 55px;
+    line-height: 70px;
+    color: #323337;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.p {
+    font-size: 16px;
+    color: #414247;
+    margin: 30px 0 45px 0;
+
+}
+
+.compañeros {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.compañeros-content {
+    justify-content: space-around;
+    margin: auto;
+    text-align: center;
+}
+
+.compañeros-content h2 {
+    font-size: 55px;
+    line-height: 70px;
+    color: #F9FAFC;
+    text-transform: uppercase;
+    margin: 25px 0;
+}
+
+.compañeros-group {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
+    padding: 10px;
+}
+
+.compañeros {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.compañeros-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Permite que los elementos se reorganicen en una columna en pantallas pequeñas */
+    gap: 10px; /* Espacio entre elementos */
+}
+
+.compañeros-1 {
+    justify-content: center;
+    padding: 10px 20px; /* Reduce el padding para pantallas pequeñas */
+    text-align: center; /* Centra el contenido para móviles */
+    width: 100%; /* Ajusta el ancho en pantallas pequeñas */
+    max-width: 300px;
+}
+
+.compañeros-1 img {
+    width: 100%; /* Asegura que la imagen se ajuste al contenedor */
+    max-width: 200px; /* Tamaño máximo en pantallas pequeñas */
+    border-radius: 15px;
+    margin: 0 auto 15px; /* Centra la imagen */
+}
+
+.compañeros-1 h3 {
+    font-size: 20px; /* Reduce el tamaño de la fuente en pantallas pequeñas */
+    color: #323337;
+    margin-bottom: 10px;
+}
+
+.compañeros-1 a {
+    color: #670097;
+    line-height: 20px;
+    font-size: 16px; /* Ajusta el tamaño de la fuente en pantallas pequeñas */
+}
+
+.compañeros-1 a:hover {
+    color: #d03bfd;
+}
+
+
+.footer {
+    background-color: #000000;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.link h3 {
+    font-size: 18px;
+    color: #F9FAFC;
+    margin-bottom: 15px;
+}
+
+.link a {
+    font-size: 16px;
+    color: #C5C5C5;
+    display: block;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .header-content h2 {
+        font-size: 35px;
+    }
+
+    .header-content h1 {
+        font-size: 45px;
+    }
+
+    .header-content p {
+        font-size: 20px; 
+    }
+
+    .Info-1 h3 {
+        font-size: 30px; 
+    }
+
+    .Info-1 img {
+        width: 100px; 
+    }
+
+    .Acerca-content h2 {
+        font-size: 35px; 
+    }
+
+    .compañeros-content {
+        flex-direction: column; /* Cambia la dirección de flex a columna en pantallas pequeñas */
+        align-items: center; /* Centra los elementos */
+    }
+
+    .compañeros-1 {
+        padding: 10px 0;
+        margin: 10px 0; /* Agrega espacio entre bloques en pantalla móvil */
+        max-width: 100%;
+    }
+
+}
